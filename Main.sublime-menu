@@ -1,0 +1,28 @@
+[
+  {
+    "id": "tools",
+    "children": [
+      {
+        "id": "babeltags",
+        "caption": "BabelTags",
+        "children": [
+          {
+            "id": "babeltagsgenerateproject",
+            "caption": "Index Current Project",
+            "command": "babeltagsgenerateproject"
+          },
+          {
+            "id": "babeltagsgenerate",
+            "caption": "Index Current File",
+            "command": "babeltagsgenerate"
+          },
+          {
+            "id": "babeltagsjump",
+            "caption": "Go To Definition",
+            "command": "babeltagsjump"
+          }
+        ]
+      }
+    ]
+  }
+]

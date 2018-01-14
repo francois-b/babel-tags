@@ -1,0 +1,7 @@
+node_modules
+dist
+.tags
+venv
+*.log
+.DS_Store
+notes
