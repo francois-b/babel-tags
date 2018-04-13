@@ -18,8 +18,13 @@
           },
           {
             "id": "babeltagsjump",
-            "caption": "Go To Definition",
+            "caption": "Open Jump Menu",
             "command": "babeltagsjump"
+          },
+          {
+            "id": "babeltagsjump",
+            "caption": "Go To Definition",
+            "command": "babeltagshyper"
           }
         ]
       }

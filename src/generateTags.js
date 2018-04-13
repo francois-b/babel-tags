@@ -29,7 +29,7 @@ const indexCode = (sourceCodeText, walkCallback, options) => {
 
   try {
     const ast = parse(sourceCodeText, parseOptions)
-    walkBabylonAst(ast, undefined, walkCallback)
+    walkBabylonAst(ast, null, walkCallback)
   } catch (e) {
     console.log('PARSE ERROR')
     console.log(e)
